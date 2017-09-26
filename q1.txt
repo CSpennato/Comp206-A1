@@ -1,0 +1,22 @@
+a) Attempting to use cat results in:
+Permission denied
+
+Ran ls -l to look at the permissions. answer.tx has no read,write, or execute for any user, group, etc
+
+b)chmod u+r answer.txt
+No output.
+
+ls -l
+Output:
+-r-------- 1 cspenn nogroup 139 Sep 22  2015 answer.txt
+
+cat answer.txt
+Output:
+This file contains a message with the answer to part 1. The message is:
+
+"Look what I learned in 206!"
+
+Congratulations if you read this.
+
+
+
